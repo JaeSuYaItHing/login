@@ -9,8 +9,8 @@
 
 <body>
   <div align="center" class="login-form">
-    <div><input class="submit-btn" type="text" value="아이디"></div>
-    <div><input class="submit-btn" type="text" value="비밀번호"></div>
+    <div><input class="submit-btn" type="text" value="아이디" onclick="this.value='';" onchange="login_id()"></div>
+    <div><input class="submit-btn" type="text" value="비밀번호" onclick="this.value='';" onchange="login_pwd()"></div>
     <div><input id="login" type="button" value="로그인"></div>
     <div><a href="whatever">비밀번호를 잊어버리셨나요?</a></div>
   </div>
